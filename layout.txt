@@ -1,0 +1,63 @@
+basically 4 pages
+1. homepage 
+2. login
+3. signup
+4. gallery(shows random images, think i'll just use grid for this)
+
+homepage
+    navbar
+        login page
+        signup page
+        gallery page
+    h1
+        some random text as the name of the gallery website(huge asf btw)
+        what the stuff is about(we're a photo hosting web application for uploading and storing photos to the cloud for free...)
+        upload image input
+    footer
+        some footer links and info, find ts out yourself
+
+login
+    //design reference is the login pageigma.com 
+    username
+    email
+    3rd party sign in options
+    forgotten password
+    login button
+    link to signup page
+    //when submitted should probably lead to homepage
+
+Sign up
+    design referenceis the sign up page at figma.com
+    full name
+    email
+    password
+    confirm password
+    3rd party signup options
+    terms of service
+    link to login page 
+
+gallery
+    welcome to the thousand image cloud gallery text
+    grid layout to do a 3x10 image gallery
+    end of page should be some "you've reached the last uploaded image
+
+
+homepage{
+    grid{
+        content1{
+            welcome to blah blah, we are blah blah for free
+        }
+        content2{
+            some random images i got off the web with the upload bs
+        }
+        content 3{
+            footer
+        }
+    }
+}
+
+with what ive learnt so far i can style these individual child elements, so thats to set the height and width of content1,
+content2 and content3
+the layout i want is a 1 row 2 column
+grid template rows=2fr 1fr 1fr
+grid templatecolums=
