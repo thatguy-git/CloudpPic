@@ -21,26 +21,19 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown" href="#services" role="button" 
+                            >
                             Services
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    
-                </form>
+                
+                <a href="signin.html" class="btn btn-outline-secondary btn-lg px-4 me-2">Log Out</a>
+                
             </div>
         </div>
     </nav>
@@ -53,76 +46,119 @@
                 <p class="lead">Effortlessly upload, save, and access your photos from anywhere. Cloud Pic keeps your precious moments safe and sound.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <!-- Login button redirects to login.html -->
-                <a href="signin.html" class="btn btn-dark btn-lg px-4 me-md-2">Login</a>
+                <a href="#services" class="btn btn-dark btn-lg px-4 me-md-2">Get Started</a>
             
-                <!-- SignUp button redirects to signup.html -->
-                <a href="signup.html" class="btn btn-outline-secondary btn-lg px-4">SignUp</a>
             </div>
             </div>
         </div>
     </div>
-    <div class="pricing-header p-3 pb-md-4 mx-5 text-center ">
-        <h1 class="display-4 fw-normal text-body-emphasis fs-1">Pricing</h1>
-        <p class="fs-5 text-body-secondary">Explore CloudPic's pricing options that strikes perfect balances between being economical and relative functionality.</p>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center mx-5">
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
-                <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal">Free</h4>
+    <section id="services">
+        <div class="pricing-header p-3 pb-md-4 mx-5 text-center ">
+            <h1 class="display-4 fw-normal text-body-emphasis fs-1">Pricing</h1>
+            <p class="fs-5 text-body-secondary">Explore CloudPic's pricing options that strikes perfect balances between being
+                economical and relative functionality.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center mx-5">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Free</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>1080p max upload quality</li>
+                            <li>5 GB of storage</li>
+                            <li>Single device support</li>
+        
+                        </ul> <a href="gallery.html"><button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button></a>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>1080p max upload quality</li>
-                        <li>5 GB of storage</li>
-                        <li>Single device support</li>
-                        
-                    </ul> <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Up to 4k quality uploads</li>
+                            <li>10 GB of storage</li>
+                            <li>2+ device support</li>
+        
+                        </ul> <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                    <div class="card-header py-3 text-bg-dark border-dark">
+                        <h4 class="my-0 fw-normal">Pro +</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Up to 8k quality uploads</li>
+                            <li>25 GB of storage</li>
+                            <li>Support for 5+ devices</li>
+        
+                        </ul> <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
-                <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal">Pro</h4>
+
+    </section>
+ 
+    <h1 class="display-4 fw-normal text-body-emphasis fs-1 text-center">Photo Gallery</h1>
+    <h1 class="display-4 fw-normal text-body-emphasis fs-5 text-center">Click the right and left sides to navigate between images</h1>
+    <a href="gallery.html">
+        <div id="carouselExampleIndicators" class="carousel slide m-5 w-75 mx-auto" style="height: 600px;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-5" style="height: 100%;">
+                <div class="carousel-item active">
+                    <img src="images/hq-image3.jpg" class="d-block w-100" style="height: 600px; object-fit: cover"
+                        alt="carousel-image">
                 </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small>
-                    </h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Up to 4k quality uploads</li>
-                        <li>10 GB of storage</li>
-                        <li>2+ device support</li>
-                        
-                    </ul> <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+                <div class="carousel-item">
+                    <img src="images/hq-image2.jpg" class="d-block w-100" style="height: 600px; object-fit: cover"
+                        alt="carousel-image">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hq-image4.jpg" class="d-block w-100" style="height: 600px; object-fit: cover"
+                        alt="carousel-image">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-dark">
-                <div class="card-header py-3 text-bg-dark border-dark">
-                    <h4 class="my-0 fw-normal">Pro +</h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small>
-                    </h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Up to 8k quality uploads</li>
-                        <li>25 GB of storage</li>
-                        <li>Support for 5+ devices</li>
-                        
-                    </ul> <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
-                </div>
-            </div>
-        </div>
-    </div>
+
+    </a>
+    
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link px-2 text-body-secondary">Pricing</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
             </ul>

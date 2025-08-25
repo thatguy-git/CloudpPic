@@ -7,6 +7,7 @@
     height: 110px
 }
 
+
 img {
     width: auto;
     /* The image will take up 50% of the div's width */
@@ -14,35 +15,9 @@ img {
     /* Maintains the image's aspect ratio */
 }
 
-ul {
-    list-style: none;
-    /* Removes the bullet points */
-    padding: 0;
-    margin: 0;
-
-    /* This is the key property */
-    justify-content: flex-end;
-    border: 1px solid rgb(255, 255, 255);
-    width: 100%;
-    display: flex;
-    height: 140px;
-    background-color: skyblue;
-    border-radius: 80px;
-}
-
-li {
-    padding: 50px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 80px;
-    background-color: rgb(158, 212, 233);
-    margin: 10px;
-}
-
-
-
-
 .login {
     text-align: center;
+    margin-top: 40px;
 }
 
 input {
@@ -55,14 +30,14 @@ input {
     border-radius: 10px;
     border-color: skyblue;
 }
-button {
+.button {
     width: 400px;
     /* Makes the button take up the full width of its container */
     padding: 10px;
     /* Adds some padding for better appearance */
     box-sizing: border-box;
     /* Ensures padding is included in the element's total width */
-    border-radius: 7px;
+    border-radius: 12px;
     height: 50px;
     font-size: 20px;
     transition-property: border-radius 20px;
@@ -71,22 +46,7 @@ button {
     font-family: "Nata Sans", sans-serif;
 }
 
-.auth{
-    border: solid 2px black;
-    border-radius: 7px;
-    width: 400px;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 50px;
-    font-size: 20px;
-    transition-property: border-radius 20px;
-    transition-duration: 0.1s;
-    transition-timing-function: ease;
-    font-family: "Nata Sans", sans-serif;
-    background-color: rgb(213, 217, 219);
-    color: black;
-    
-}
+
 
 .parent-container {
     display: flex;
@@ -113,6 +73,7 @@ button:hover {
 
 .signup {
     text-align: center;
+    margin-top: 25px;
 }
 
 
@@ -182,4 +143,23 @@ button:hover {
 .upload-section{
     text-align: center;
     font-family: "Nata Sans", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.carousel-custom {
+    height: 450px;
+    /* Adjust this value to your desired height */
+}
+
+.carousel-custom .carousel-inner,
+.carousel-custom .carousel-item {
+    height: 100%;
+}
+
+.carousel-custom .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    /* Prevents images from stretching and crops them to fit */
 }
